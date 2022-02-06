@@ -33,7 +33,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'project',
+            name: 'title',
             message: "What is your project's title?",
             validate: nameInput => {
                 if (nameInput) {
@@ -116,4 +116,4 @@ function writeToFile(fileName, data) {}
 function init() {}
 
 // Function call to initialize app
-init();
+// init(); 
