@@ -2,7 +2,7 @@
 // license info is generating in the generateMarkDown 
 function generateMarkdown(data) {
   return `# ${data.title}
-    ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen) 
+    ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
 
     ## Description: 
     ${data.description} 
@@ -25,7 +25,6 @@ function generateMarkdown(data) {
     ${data.credits} 
 
     ## License:
-    ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
     This project is licensed under ${data.license}. 
 
     ## Tests:
