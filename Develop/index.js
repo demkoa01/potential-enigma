@@ -10,7 +10,7 @@ const questions = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'github',
             message: 'What is your GitHub username?',
             validate: nameInput => {
                 if (nameInput) {
@@ -123,7 +123,7 @@ function writeToFile = data => {
         } else {
             console.log('Your README file has successfully been created!');
         }
-    })
+    });
 };
 
 // TODO: Create a function to initialize app
