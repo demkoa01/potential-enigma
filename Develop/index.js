@@ -84,20 +84,26 @@ const questions = [
             }
         },
         {
-            type: 'confirm',
+            type: 'input',
             name: 'credits',
             message: 'Did you work with any other collaborators on this project?',
-            default: false
+            validate: nameInput => {
+                if (nameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter other contributors. If no others, please write "None".');
+                    return false;
+                }
+            }
         },
         {
-            type: 'checkbox',
-            name: 'licenses',
+            type: 'list',
+            name: 'license',
             message: 'What kind of license should your project have?',
             choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None' ],
-            default: ['None']
         },
         {
-            type: 'confirm',
+            type: 'input',
             name: 'tests',
             message: 'What command should be run to perform tests?',
             default: 'npm test'
