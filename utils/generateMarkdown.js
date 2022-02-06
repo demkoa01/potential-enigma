@@ -1,12 +1,11 @@
 // TODO: Create a function to generate markdown for README
 // license info is generating in the generateMarkDown 
 function generateMarkdown(data) {
-  return 
-    `# ${data.title}
-    ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen) <br/>
+  return `# ${data.title}
+    ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen) 
 
     ## Description: 
-    ${data.description} <br/>
+    ${data.description} 
 
     ## Table of Contents:
     * [Installation](#installation)
@@ -14,23 +13,23 @@ function generateMarkdown(data) {
     * [Credits](#credits)
     * [License](#license)
     * [Tests](#tests)
-    * [Questions](#questions) <br/>
+    * [Questions](#questions) 
     
     ## Installation:
-    ${data.installation} <br/>
+    ${data.installation}
 
     ## Usage:
-    ${data.usage} <br/>
+    ${data.usage} 
 
     ## Credits:
-    ${data.credits} <br/>
+    ${data.credits} 
 
     ## License:
     ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
-    This project is licensed under ${data.license} license. <br/>
+    This project is licensed under ${data.license}. 
 
     ## Tests:
-    ${data.test} <br/>
+    ${data.test} 
 
     ## Questions:
     If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
