@@ -6,6 +6,9 @@
 ## User Story:
 ![user-story](https://user-images.githubusercontent.com/93881224/152707854-106b7475-c4b8-456e-9ed1-cf8456e9fe9b.JPG)
 
+## Critera
+![criteria](https://user-images.githubusercontent.com/93881224/152708604-82b39867-1a83-49b2-a7e4-8285a638e951.JPG)
+
 ## Table of Contents:
 [Installation](#installation)
 [Usage](#usage)
