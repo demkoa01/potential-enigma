@@ -15,22 +15,22 @@ function generateMarkdown(data) {
     [Tests](#tests)
     [Questions](#questions) 
     
-    ## Installation:
+    ## Installation
     ${data.installation}
 
-    ## Usage:
+    ## Usage
     ${data.usage} 
 
-    ## Credits:
+    ## Credits
     ${data.credits} 
 
-    ## License:
+    ## License
     This project is licensed under ${data.license}. 
 
-    ## Tests:
+    ## Tests
     ${data.test} 
 
-    ## Questions:
+    ## Questions
     If you have any questions about this project, please contact me directly at ${data.email}. 
     You can view more of my projects at https://github.com/${data.github}.
 `;
