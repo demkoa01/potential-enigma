@@ -1,8 +1,8 @@
-# Project Name Here
-  ![Badge](https://img.shields.io/badge/License-MIT-blueviolet)
+# Enter Project Title Here
+  ![Badge](https://img.shields.io/badge/License-Mozilla-blueviolet)
 
     ## Description: 
-    Project Description Here 
+    Enter Project Description Here 
 
     ## Table of Contents:
     [Installation](#installation)
@@ -13,16 +13,16 @@
     [Questions](#questions) 
     
     ## Installation
-    Steps for Installing Project Here
+    Steps to Fun Application
 
     ## Usage
-    Explain How to use Application Here 
+    Explain how to use here 
 
     ## Credits
-    List of Contributors Here 
+    Add contributors 
 
     ## License
-    This project is licensed under MIT. 
+    This project is licensed under Mozilla. 
 
     ## Tests
     undefined 
