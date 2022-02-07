@@ -8,12 +8,12 @@ function generateMarkdown(data) {
     ${data.description} 
 
     ## Table of Contents:
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Tests](#tests)
-    * [Questions](#questions) 
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Credits](#credits)
+    - [License](#license)
+    - [Tests](#tests)
+    - [Questions](#questions) 
     
     ## Installation:
     ${data.installation}
@@ -31,7 +31,8 @@ function generateMarkdown(data) {
     ${data.test} 
 
     ## Questions:
-    If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+    If you have any questions about this project, please contact me directly at ${data.email}. 
+    You can view more of my projects at https://github.com/${data.github}.
 `;
 }
 
