@@ -9,6 +9,9 @@
 ## Critera
 ![criteria](https://user-images.githubusercontent.com/93881224/152708604-82b39867-1a83-49b2-a7e4-8285a638e951.JPG)
 
+## Video of Application:
+https://user-images.githubusercontent.com/93881224/152710153-7c3d88df-aa1c-4e16-966e-f4d965d7deb7.mp4
+
 ## Table of Contents:
 [Installation](#installation)
 [Usage](#usage)
