@@ -1,8 +1,8 @@
 # ABC
-    ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![Badge](https://img.shields.io/badge/License-MIT-blueviolet)
 
     ## Description: 
-    ACBD 
+    def 
 
     ## Table of Contents:
     * [Installation](#installation)
@@ -13,16 +13,15 @@
     * [Questions](#questions) 
     
     ## Installation:
-    ABCDE
+    ghkfn
 
     ## Usage:
-    ABCDEFG 
+    gmklml 
 
     ## Credits:
-    ABCDEGHI 
+    no 
 
     ## License:
-    ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
     This project is licensed under MIT. 
 
     ## Tests:

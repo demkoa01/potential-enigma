@@ -2,6 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const fileName = "README.md";
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -112,28 +113,25 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    ("README.md", generatePage.generateMarkdown(data), function(err){
-        if(err) throw err;
-        console.log("Your README file has successfully created!");
-    })
-};
+    const markdown = generateMarkdown(data);
+    fs.writeFile(fileName, markdown, function(err) {
+        if (err) throw err;
+        console.log('Your file was created successfully!');
+    });
+}
+
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(function(userInfo) {
-        const markDownString = generateMarkdown(userInfo)
-        fs.writeFile('README.md', markDownString, function(err) {
-            if (err) {
-                console.log(err);
-            } else {
-                console.log('README created');
-            }
+    inquirer   
+        .prompt(questions)
+        .then(function(data) {
+            writeToFile(fileName, data)
         })
-    },
-    e => {
-        console.log('The file cannot be created because the user does not exsit.');
-    })
 };
+
+
+
 
 // initialize app
 init();
